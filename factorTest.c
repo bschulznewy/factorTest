@@ -6,6 +6,8 @@ int main() {
 	scanf("%d", &x);
 	printf("Enter another integer: ");
 	scanf("%d", &y);
+	printf("%d\n", x/y);
+	return;
 	if(x % y == 0) { // ie: if the remainder is zero
 		printf("%d is a factor of %d\n", y, x);
 	} else {
